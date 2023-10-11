@@ -1,6 +1,6 @@
 const estudiantes = {
     'Jean': {
-        numeroEstudiante: '123',
+        numeroEstudiante: '002',
         notas: {
             'Matemáticas': 18,
             'Ciencias': 16,
@@ -18,7 +18,7 @@ const estudiantes = {
     },
 
     'Steven': {
-        numeroEstudiante: '456',
+        numeroEstudiante: '001',
         notas: {
             'Matemáticas': 15,
             'Ciencias': 14,
