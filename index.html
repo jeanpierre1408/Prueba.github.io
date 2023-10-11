@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas de Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Bienvenido a eben ezer </h1>
+        <h2> NOTAS </h2>
+    </header>
+
+    <section id="formulario">
+        <h2> REGISTRATE </h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Tu nombre">
+        
+        <label for="numeroEstudiante">Número de estudiante:</label>
+        <input type="text" id="numeroEstudiante" placeholder="Tu número de estudiante">
+
+        <button onclick="mostrarNotas()">Mostrar Notas</button>
+    </section>
+
+    <section id="notas">
+        <h2>Tus Notas:</h2>
+        <div id="tablaNotas"></div>
+    </section>    
+
+    <script src="script.js"></script>
+</body>
+</html>
